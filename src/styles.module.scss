@@ -1,0 +1,25 @@
+.calculator {
+  width: 180px;
+  margin: 20px auto;
+}
+
+.digitsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);  
+}
+
+.digitButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background: darkblue;
+  color: white;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.resultSection {
+  background: #ddd;
+  width: 100%;
+  margin: 10px;
+}
